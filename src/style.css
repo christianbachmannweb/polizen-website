@@ -145,13 +145,22 @@
 
 }
 
+body {
+  @apply text-text bg-white tracking-wider text-[min(14px,1.125rem)];
+
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merchant', serif;
-  @apply tracking-tight;
+  @apply tracking-tight text-[min(10vw,3.5rem)];
+}
+
+h2 {
+  @apply text-[min(8vw,3rem)]
 }
 
 h3 {
-  @apply text-2xl
+  @apply text-[min(2vw,1.5rem)];
 }
 
 
@@ -196,10 +205,7 @@ Kartenhintergrund oder Sektionen: #D0ECEA */
 
 
 
-body {
-  @apply text-text bg-white tracking-wider;
 
-}
 
 /* Papierhintergrund */
 .paper-bg {
@@ -293,6 +299,10 @@ body {
 }
 
 
+.btn-secondary {
+  @apply  font-bold bg-transparent border rounded-full px-5 py-2 duration-300 hover:bg-button hover:text-white;
+}
+
 /* ----- Underline Links ------*/
 
 .underline-link::before,
@@ -358,7 +368,6 @@ body {
   will-change: filter;
   transition: filter 300ms;
 }
-
 
 
 .card {
