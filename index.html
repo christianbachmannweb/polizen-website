@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <!--Papierrauschen-->
+  <div class="paper-bg">
+    <div class="noise-overlay"></div>
+  </div>
+  <!--Navigation-->
+  <header id="navbar" class="fixed top-4 w-full z-50">
+    <nav class="container mx-auto bg-mainbg rounded-full flex items-center justify-between h-16 sm:h-20 px-8 py">
+      <a href="/index.html">
+        <img src="src/assets/images/homepage-logo.png" alt="zeigt Polizen logo" class="w-[6rem]" />
+      </a>
+      <div id="nav-menu"
+        class="absolute top-[-1rem] font-primary left-[-100%] min-h-[80vh] w-full bg-[#d0eceabc] backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto lg:h-16">
+        <ul class="flex flex-col items-center gap-8 lg:flex-row font-primary">
+          <li class="relative">
+            <a href="#about" class="nav-link underline-link">Über Polizen</a>
+          </li>
+          <li class="relative">
+            <a href="#blog" class="nav-link underline-link">Blog</a>
+          </li>
+          <li>
+            <a href="https://google.de" target="_blank" rel="noopener norefferer"
+              class="text-black bg-button px-5 py-3 rounded-full border border-[#978662] hover:bg-[#978662 ]">Zur
+              Warteliste</a>
+          </li>
+        </ul>
+      </div>
+      <div class="text-black w-8 h-8 z-50 lg:hidden">
+        <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+          stroke-linecap="round">
+          <path d="M16 18V20H5V18H16ZM21 11V13H3V11H21ZM19 4V6H8V4H19Z"></path>
+        </svg>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!--Home-Sektion-->
+    <section id="home" class="pt-80 pb-40">
+      <div class="container">
+        <div class="flex flex-col items-center justify-center gap-4">
+          <div class="w-full max-w-4xl space-y-5 text-center">
+            <h1 class="font-heading font-bold text-6xl">Die erste MeditationsApp für Polizei und Rettungskräfte</h1>
+            <p class="">PoliZen – die Meditations-App für Einsatzkräfte. Entwickelt, um dir in extremen Momenten
+              Gelassenheit, Fokus und neue Kraft zu geben.</p>
+            <div class="flex flex-col gap-2 sm:flex-row items-center justify-center mt-8">
+              <button class="btn">Jetzt in die Warteliste</button>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Grid-Sektion-->
+    <section class="py-20 xl:py-28 bg-mainbg">
+      <div class="container">
+        <div class="flex flex-col items-center justify-center mb-20">
+          <div class="flex flex-col gap-5 text-center max-w-3xl mb-20">
+            <p class="uppercase font-bold">100% Kostenfrei</p>
+            <h2 class="text-5xl font-bold line font-heading font-stretch-extra-condensed">Mit inner Ruhe stressige Situationen meistern</h2>
+            <p class="text-[1.125rem]">PoliZen bedeutet nicht nur da sitzen und still sein. Es bedeutet Besonnenheit, wenn andere im Chaos
+              ertrinken.</p>
+          </div>
+          <!--3 Spalten-Grid-->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12 w-full">
+
+            <!--Spalte 1 -->
+            <div class="flex flex-col gap-16 text-center">
+              <div>
+                <img src="src/assets/images/🧘🏻.png" alt="emoji" class="w-10 mx-auto mb-4">
+                <h3 class="font-bold font-heading mb-2">Pure Entspannung</h3>
+                <p>Lerne, wie du in besonderen Situationen Ruhe bewahrst und den Überblick behältst.</p>
+              </div>
+              <div>
+                <img src="src/assets/images/🧘🏻.png" alt="emoji" class="w-10 mx-auto mb-4">
+                <h3 class="font-bold font-heading mb-2">Fokus im Einsatz</h3>
+                <p>Trainiere deinen Fokus, auch wenn’s rund geht.</p>
+              </div>
+            </div>
+
+            <!-- Spalte 2 -->
+            <div class="flex flex-col gap-16 items-center justify-center">
+              <img src="src/assets/images/polizen-sektion-2.avif" alt="kunstbild mit meditierendem"
+                class="w-full rounded-2xl shadow">
+
+
+            </div>
+
+            <!-- Spalte 3 -->
+            <div class="flex flex-col gap-16 text-center">
+              <div>
+                <img src="src/assets/images/🧘🏻.png" alt="emoji" class="w-10 mx-auto mb-4">
+                <h3 class="font-bold font-heading mb-2">Regeneration</h3>
+                <p>Erhol dich bewusst – für langfristige Leistungsfähigkeit.</p>
+              </div>
+              <div>
+                <img src="src/assets/images/🧘🏻.png" alt="emoji" class="w-10 mx-auto mb-4">
+                <h3 class="font-bold font-heading mb-2">Klarer Kopf</h3>
+                <p>Triff Entscheidungen mit Ruhe statt Reflex.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+    </section>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
