@@ -16,9 +16,8 @@
     <div class="noise-overlay"></div>
   </div>
   <!--Navigation-->
-  <header id="navbar" class="fixed top-4 w-full z-50">
-    <nav
-      class="container ~mx-1rem/2.5rem bg-mainbg rounded-full flex items-center justify-between h-16 sm:h-20 px-8 py">
+  <header id="navbar" class="fixed top-4 w-full z-50 px-10">
+    <nav class="container ~mx-1rem/2.5rem bg-mainbg rounded-full flex items-center justify-between h-16 sm:h-20 px-8 ">
       <a href="/index.html">
         <img src="src/assets/images/homepage-logo.png" alt="zeigt Polizen logo" class="w-[6rem]" />
       </a>
@@ -32,8 +31,7 @@
             <a href="#blog" class="nav-link underline-link">Blog</a>
           </li>
           <li>
-            <a href="https://google.de" target="_blank" rel="noopener norefferer"
-              class="text-black bg-button px-5 py-3 rounded-full border border-[#978662] hover:bg-[#978662 ]">Zur
+            <a href="https://google.de" target="_blank" rel="noopener norefferer" class="btn">Zur
               Warteliste</a>
           </li>
         </ul>
@@ -64,12 +62,11 @@
     </section>
 
     <!--Grid-Sektion-->
-    <section class="py-20 xl:py-28 bg-mainbg relative px-10">
+    <section class="py-20 xl:py-28 bg-mainbg relative">
       <div class="absolute top-[-1rem] left-0 w-full flex items-center justify-between gap-8">
-        <div class="flex-1 h-px bg-black/10"></div>
         <img src="/src/assets/images/flower-svgrepo-com (1).svg" alt="Blumen SVG Bild als Trenner"
-          class="w-auto h-[2rem] opacity-40 object-contain">
-        <div class="flex-1 h-px bg-black/10"></div>
+          class="w-auto h-[2rem] opacity-40 object-contain absolute left-1/2 -bottom-[2rem]">
+
       </div>
       <div class="container">
         <div class="flex flex-col items-center justify-center mb-20">
@@ -85,7 +82,7 @@
           <div class="grid grid-cols-1 md:grid-cols-3 gap-12 w-full">
 
             <!--Spalte 1 -->
-            <div class="flex flex-col gap-16 text-center">
+            <div class="flex flex-row md:flex-col gap-16 text-center">
               <div>
                 <img src="src/assets/images/🧘🏻.png" alt="emoji" class="w-10 mx-auto mb-4">
                 <h3 class="font-bold font-heading mb-2">Pure Entspannung</h3>
@@ -101,13 +98,13 @@
             <!-- Spalte 2 -->
             <div class="flex flex-col gap-16 items-center justify-center">
               <img src="src/assets/images/polizen-sektion-2.avif" alt="kunstbild mit meditierendem"
-                class="w-full rounded-2xl shadow">
+                class="w-full shadow rounded-full ">
 
 
             </div>
 
             <!-- Spalte 3 -->
-            <div class="flex flex-col gap-16 text-center">
+            <div class="flex flex-row md:flex-col gap-16 text-center">
               <div>
                 <img src="src/assets/images/😶.png" alt="emoji" class="w-10 mx-auto mb-4">
                 <h3 class="font-bold font-heading mb-2">100% Emotionskontrolle</h3>
@@ -135,10 +132,8 @@
     <section class="relative py-20 xl:py-28">
       <!--divider-->
       <div class="absolute top-[-1rem] left-0 w-full flex items-center justify-between gap-8">
-        <div class="flex-1 h-px bg-black/10"></div>
-        <img src="/src/assets/images/flower-svgrepo-com.svg" alt="Blumen SVG Bild als Trenner"
-          class="w-auto h-[2rem] opacity-40 object-contain">
-        <div class="flex-1 h-px bg-black/10"></div>
+        <img src="/src/assets/images/flower-svgrepo-com (1).svg" alt="Blumen SVG Bild als Trenner"
+          class="w-auto h-[2rem] opacity-40 object-contain absolute left-1/2 -bottom-[2rem]">
       </div>
       <div class="container">
         <div class="flex flex-col items-center justify-center mb-20">
@@ -148,9 +143,9 @@
             <p class="text-[1.125rem]">PoliZen ist kostenfrei für dich. Du kannst deine eigene Erfahrung machen. Aber
               Nutzer der App haben sich sehr positiv über die Ergebnisse, die PoliZen ihnen gebracht hat geäußert. </p>
           </div>
-          <div class="grid grid-cols-1 xl:grid-cols-3 gap-4 w-full">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
             <!--Col1-->
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4 ">
               <!--Card-->
               <div class="border border-black/40 rounded-2xl bg-mainbg p-6 flex flex-col gap4">
                 <!--Stars-->
@@ -241,9 +236,9 @@
               </div>
             </div>
             <!--Col2-->
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4 ">
               <!--Card-->
-              <div class="border border-black/40 rounded-2xl bg-mainbg p-6 flex flex-col gap4">
+              <div class="border border-black/40 rounded-2xl bg-mainbg p-6 flex flex-col gap4 ">
                 <!--Stars-->
                 <div class="flex justify-start items-start mb-4 ">
                   <svg width="1.5rem" height="1.5rem" viewBox="0 0 18 17" fill="none"
@@ -287,7 +282,7 @@
                 </div>
               </div>
               <!--Card-->
-              <div class="border border-black/40 rounded-2xl bg-mainbg p-6 flex flex-col gap4">
+              <div class="border border-black/40 rounded-2xl bg-mainbg p-6 md:flex flex-col gap4 sm:hidden ">
                 <!--Stars-->
                 <div class="flex justify-start items-start mb-4 ">
                   <svg width="1.5rem" height="1.5rem" viewBox="0 0 18 17" fill="none"
@@ -332,7 +327,7 @@
               </div>
             </div>
             <!--Col3-->
-            <div class="flex flex-col gap-4">
+            <div class="lg:flex flex-col gap-4 hidden ">
               <!--Card-->
               <div class="border border-black/40 rounded-2xl bg-mainbg p-6 flex flex-col gap4">
                 <!--Stars-->
@@ -422,8 +417,49 @@
                 </div>
               </div>
             </div>
+            <div class="absolute bottom-[1rem] z-4 left-0 w-full flex items-center justify-between gap-4">
+              <img src="/src/assets/images/flower-svgrepo-com (1).svg" alt="Blumen SVG Bild als Trenner"
+                class="w-auto h-[2rem] opacity-40 object-contain absolute left-1/2 -bottom-[2rem]">
+            </div>
     </section>
     <!--Sektion CTA-->
+    <section class="relative bg-mainbg py-20 xl:py-28 overflow-hidden">
+      
+      <div class="container relative flex justify-center items-center z-1">
+        <div
+          class="w-2xl border border-black/30 rounded-2xl bg-slate-800 dark:text-mainbg flex flex-col gap-4 px-6 py-8">
+          <h2 class="h3-style">Trage dich in den Newsletter ein</h2>
+          <form  action="https://67edb8c9.sibforms.com/serve/MUIFAFU8Mq2rIwQtZ1MRhk_HrgipB-o9Ln6S-aBXzDDSktGVIJUqcksY9gAeKjmj1gpCMo24PsiumLu1EZUkbcYS05uglSCX5CvXc4we1lIebOJp5K1WkVJdXljdnNz44X2GkVCyXJF6roWaheLsQjHlejVJgxhHWlbEMhBptlaM4cOTvPmWv-G4MsBWWX9Z5mY4rixU2zd0p0qy" 
+          method="POST">
+            <!--Inputfeld-->
+            <div class="mb-2">
+              <label for="email" class="block mb-2 text-sm font-medium text-text dark:text-white">Deine Email
+                Addresse</label>
+              <input type="email" id="EMAIL" name="EMAIL" data-required="true" 
+                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                placeholder="john.doe@company.com" required />
+            </div>
+            <div class="flex items-start mb-4">
+              <div class="flex items-center h-5">
+                <input id="OPT_IN" type="checkbox" value="" name="OPT_IN"
+                  class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                  required />
+              </div>
+              <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ich bin mit dem <a
+                  href="/datenschutz.html" class="text-blue-600 hover:underline dark:text-blue-500">Datenschutz
+                </a>einverstanden.</label>
+            </div>
+            <button type="submit" 
+              class="text-black bg-button hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-mainbg dark:focus:ring-blue-800">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="absolute left-auto -right-50 top-0 z-0 opacity-5 rotate-6"><img src="/src/assets/images/flower-in-bloom-with-8-petals-svgrepo-com.svg" alt=""></div>
+
+
+    </section>
+    <!--Footer-->
     <section>
 
 

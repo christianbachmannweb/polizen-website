@@ -65,7 +65,7 @@
   --color-mainbg: #F6EDDA;
   --color-text: #4A3F2A;
   --color-links: #8B7A5D;
-  --color-button: #6B9EA7;
+  --color-button: #083D77;
   --color-bgsecondary: #D0ECEA;
 }
 
@@ -150,6 +150,10 @@ body {
 
 }
 
+section {
+  @apply px-10;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merchant', serif;
   @apply tracking-tight text-[min(10vw,3.5rem)];
@@ -163,7 +167,9 @@ h3 {
   @apply text-[min(2vw,1.5rem)];
 }
 
-
+.h3-style {
+  @apply text-[min(2vw,1.5rem)];
+}
 
 
 
@@ -289,7 +295,7 @@ Kartenhintergrund oder Sektionen: #D0ECEA */
 /*------ Button ---------------*/
 
 .btn {
-  @apply border border-black/50 bg-button rounded-full px-5 py-2 duration-300 text-black;
+  @apply border border-black/50 bg-button rounded-full px-6 py-3 duration-300 text-white font-bold;
 }
 
 .btn:hover {
@@ -300,7 +306,7 @@ Kartenhintergrund oder Sektionen: #D0ECEA */
 
 
 .btn-secondary {
-  @apply  font-bold bg-transparent border rounded-full px-5 py-2 duration-300 hover:bg-button hover:text-white;
+  @apply  font-bold bg-transparent border rounded-full px-6 py-3 duration-300 hover:bg-button hover:text-white;
 }
 
 /* ----- Underline Links ------*/
