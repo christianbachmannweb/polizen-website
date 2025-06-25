@@ -67,6 +67,7 @@
   --color-links: #8B7A5D;
   --color-button: #083D77;
   --color-bgsecondary: #D0ECEA;
+  --color-footer: #111118;
 }
 
 @font-face {
@@ -291,6 +292,9 @@ Kartenhintergrund oder Sektionen: #D0ECEA */
   @apply text-lg font-bold font-primary;
 }
 
+.footer-link {
+  @apply text-lg text-white;
+}
 
 /*------ Button ---------------*/
 

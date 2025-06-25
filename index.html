@@ -51,8 +51,8 @@
       <div class="container">
         <div class="flex flex-col items-center justify-center gap-4">
           <div class="w-full max-w-4xl space-y-5 text-center">
-            <h1 class="font-heading font-bold">Die erste MeditationsApp für Polizei und Rettungskräfte</h1>
-            <p class="">PoliZen – die Meditations-App für Einsatzkräfte. Entwickelt, um dir in extremen Momenten
+            <h1 class="font-heading font-bold text-balance">Die erste MeditationsApp für Polizei und Rettungskräfte</h1>
+            <p class="text-2xl">PoliZen – die Meditations-App für Einsatzkräfte. Entwickelt, um dir in extremen Momenten
               Gelassenheit, Fokus und neue Kraft zu geben.</p>
             <div class="flex flex-col gap-2 sm:flex-row items-center justify-center mt-8">
               <button class="btn">Jetzt in die Warteliste</button>
@@ -72,9 +72,9 @@
         <div class="flex flex-col items-center justify-center mb-20">
           <div class="flex flex-col gap-5 text-center max-w-3xl mb-20">
             <p class="uppercase font-bold">100% Kostenfrei</p>
-            <h2 class="text-5xl font-bold line font-heading font-stretch-extra-condensed">Mit inner Ruhe stressige
+            <h2 class="text-5xl font-bold line font-heading font-stretch-extra-condensed text-balance">Mit inner Ruhe stressige
               Situationen meistern</h2>
-            <p class="text-[1.125rem]">PoliZen bedeutet nicht nur da sitzen und still sein. Es bedeutet Besonnenheit,
+            <p class="text-[1.125rem] text-balance">PoliZen bedeutet nicht nur da sitzen und still sein. Es bedeutet Besonnenheit,
               wenn andere im Chaos
               ertrinken.</p>
           </div>
@@ -425,10 +425,11 @@
     <!--Sektion CTA-->
     <section class="relative bg-mainbg py-20 xl:py-28 overflow-hidden">
       
-      <div class="container relative flex justify-center items-center z-1">
+      <div class="container flex justify-center items-center z-1">
         <div
-          class="w-2xl border border-black/30 rounded-2xl bg-slate-800 dark:text-mainbg flex flex-col gap-4 px-6 py-8">
+          class="w-2xl overflow-hidden relative border rounded-2xl bg-footer dark:text-mainbg flex flex-col gap-4 px-6 py-8">
           <h2 class="h3-style">Trage dich in den Newsletter ein</h2>
+         <!--form-->
           <form  action="https://67edb8c9.sibforms.com/serve/MUIFAFU8Mq2rIwQtZ1MRhk_HrgipB-o9Ln6S-aBXzDDSktGVIJUqcksY9gAeKjmj1gpCMo24PsiumLu1EZUkbcYS05uglSCX5CvXc4we1lIebOJp5K1WkVJdXljdnNz44X2GkVCyXJF6roWaheLsQjHlejVJgxhHWlbEMhBptlaM4cOTvPmWv-G4MsBWWX9Z5mY4rixU2zd0p0qy" 
           method="POST">
             <!--Inputfeld-->
@@ -436,7 +437,7 @@
               <label for="email" class="block mb-2 text-sm font-medium text-text dark:text-white">Deine Email
                 Addresse</label>
               <input type="email" id="EMAIL" name="EMAIL" data-required="true" 
-                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5"
                 placeholder="john.doe@company.com" required />
             </div>
             <div class="flex items-start mb-4">
@@ -452,16 +453,38 @@
             <button type="submit" 
               class="text-black bg-button hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-mainbg dark:focus:ring-blue-800">Submit</button>
           </form>
+          <div class="absolute left-auto -right-60 -top-28 z-0 w-130 rotate-6"><img src="/src/assets/images/flower-white.svg" alt=""></div>
+
         </div>
       </div>
 
-      <div class="absolute left-auto -right-50 top-0 z-0 opacity-5 rotate-6"><img src="/src/assets/images/flower-in-bloom-with-8-petals-svgrepo-com.svg" alt=""></div>
 
 
     </section>
     <!--Footer-->
-    <section>
-
+    <section class="bg-footer py-18">
+      <div class="container">
+        <div class="grid grid-cols-1 md:grid-cols-3 mb-10">
+          <div>
+            <a href="/index.html">
+              <img src="/src/assets/images/polizen-logo-mit-schriftzug.svg" alt="Polizen Logo mit Logo Schriftzug" class="w-40">
+            </a>
+          </div>
+          <div class="flex justify-center items-center">
+            <ul class="flex flex-col items-center gap-8 lg:flex-row font-primary">
+              <li class="relative">
+                <a href="#about" class="footer-link">Über Polizen</a>
+              </li>
+              <li class="relative">
+                <a href="#blog" class="footer-link">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div></div>
+        </div>
+        <div class="h-[1px] bg-mainbg"></div>
+        div.flex.
+      </div>
 
     </section>
 
